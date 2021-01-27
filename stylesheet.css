@@ -1,0 +1,158 @@
+body {
+    background-color: hsl(240, 78%, 98%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: hsl(232, 13%, 33%);
+    font-weight: 700;
+    float: center;
+}
+
+.bg1 {
+    background: url(images/bg-top.svg), url(images/bg-bottom.svg);
+    background-position:right top, left bottom;
+    background-repeat:no-repeat, no-repeat;
+}
+
+.box {
+    display: flex;
+    margin-left:15%;
+}
+
+.card {
+    width: 27%;
+    height: 40%;
+    background-color: white;
+    margin-top: 1pc;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+hr {
+    margin: 0% 10%;
+    color: gray;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 16px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider-round {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(237, 63%, 64%);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider-round:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider-round {
+    background-color:  hsl(237, 63%, 64%);
+  }
+  
+  input:focus + .slider-round {
+    box-shadow: 0 0 1px  hsl(237, 63%, 64%);
+  }
+  
+  input:checked + .slider-round:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  
+  /* Rounded sliders */
+  .slider-round {
+    border-radius: 34px;
+  }
+  
+  .slider-round:before {
+    border-radius: 50%;
+  }
+
+
+  .heading {
+      text-align: center;
+      margin-bottom: 1pc;
+  }
+
+  .button {
+      background-color: hsl(236, 72%, 79%);
+      margin: 1pc 3pc;
+      padding: 0.5pc 1pc;
+      border-radius: 10%;
+      border-width: 1px;
+      color: white;
+      font-size: 14px;
+  }
+  .button:hover {
+      background-color: whitesmoke;
+      color: hsl(236, 72%, 79%);
+  }
+
+  .button1 {
+    background-color: white;
+    margin: 1pc 3pc;
+    padding: 0.5pc 1pc;
+    border-radius: 10%;
+    border-width: 1px;
+    color: hsl(237, 63%, 64%);
+    font-size: 14px;
+}
+.button1:hover {
+    background-color: hsl(236, 72%, 79%);
+    color: white;
+}
+  span {
+      font-size:  35px;
+  }
+
+.card2 {
+      background-color: hsl(237, 63%, 64%);
+      height: 21pc;
+      width: 27%;
+      border-width: 0px;
+      border-style: solid;
+      border-color: black;
+      border-radius: 2%;
+      text-align: center;
+      color: white;
+  }
